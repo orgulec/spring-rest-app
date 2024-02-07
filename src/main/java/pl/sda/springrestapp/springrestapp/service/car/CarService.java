@@ -1,4 +1,4 @@
-package pl.sda.springrestapp.springrestapp.service;
+package pl.sda.springrestapp.springrestapp.service.car;
 
 import org.springframework.stereotype.Service;
 import pl.sda.springrestapp.springrestapp.model.Car;

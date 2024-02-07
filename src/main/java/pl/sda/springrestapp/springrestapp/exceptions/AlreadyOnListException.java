@@ -1,8 +1,7 @@
-package pl.sda.springrestapp.springrestapp.excceptions;
+package pl.sda.springrestapp.springrestapp.exceptions;
 
-public class AlreadyOnListException extends IllegalArgumentException {
-    public String message;
-    public String getMessage(String message){
-        return message;
+public class AlreadyOnListException extends RuntimeException {
+    public AlreadyOnListException(String registr){
+        super(String.format("Car [%s] is already exist!", registr));
     }
 }

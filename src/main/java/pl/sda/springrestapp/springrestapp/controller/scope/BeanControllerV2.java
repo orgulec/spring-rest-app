@@ -10,9 +10,9 @@ import pl.sda.springrestapp.springrestapp.scope.RequestBean;
 import pl.sda.springrestapp.springrestapp.scope.SingletonBean;
 
 @RestController
-@RequestMapping("/beans/v1")
+@RequestMapping("/beans/v2")
 @RequiredArgsConstructor
-public class BeanControllerV1 {
+public class BeanControllerV2 {
 
     private final SingletonBean singletonBean;
     private final PrototypeBean prototypeBean;
